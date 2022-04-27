@@ -23,7 +23,7 @@ for i in range(len(list)):
         word_list.append(list[i][len(list[i])-1])
         word_list=''.join(word_list)
         new_list.append(word_list)
-
+new_list=' '.join(new_list)
 print(new_list)
         
         
